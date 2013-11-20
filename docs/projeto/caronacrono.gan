@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="UnB Carona Solidária" company="UnB" webLink="http://" view-date="2013-11-10" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.0" locale="pt_BR">
+<?xml version="1.0" encoding="UTF-8"?><project name="UnB Carona Solidária" company="UnB" webLink="http://" view-date="2013-10-21" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.0" locale="pt_BR">
     <description><![CDATA[A presente proposta de projeto UnB Carona Solidária objetiva a criação
 de um sistema via web que viabilize o compartilhamento de caronas entre os diversos usuários dos Campus da UnB, alunos, professores e funcionários. O site seriá responsável pelo acesso e organização de informações e comunicação dos usuários cadastrados, de forma a tornar a carona algo rotineiramente praticável e uma opção de fato atrativa de transporte compartilhado solidário, disseminando seu uso pela comunidade da UnB e funcionando como uma rede social.]]></description>
-    <view zooming-state="default:1" id="gantt-chart">
+    <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd3" name="Nome" width="57" order="0"/>
         <field id="tpd4" name="Data inicial" width="21" order="1"/>
         <field id="tpd5" name="Data final" width="21" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Nome" width="50" order="0"/>
-        <field id="1" name="Função" width="49" order="1"/>
+        <field id="1" name="Função" width="50" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -79,6 +79,9 @@ de um sistema via web que viabilize o compartilhamento de caronas entre os diver
         <task id="12" name="Implementação" color="#8cb6ce" meeting="false" start="2013-10-29" duration="21" complete="0" expand="true"/>
         <task id="14" name="Teste1" color="#8cb6ce" meeting="false" start="2013-11-10" duration="4" complete="0" expand="true"/>
         <task id="17" name="Teste2" color="#8cb6ce" meeting="false" start="2013-11-22" duration="4" complete="0" expand="true"/>
+        <task id="18" name="Homologação" color="#8cb6ce" meeting="false" start="2013-11-26" duration="4" complete="0" expand="true"/>
+        <task id="20" name="Possíveis Mudanças" color="#8cb6ce" meeting="false" start="2013-11-30" duration="10" complete="0" expand="true"/>
+        <task id="23" name="Fechamento" color="#8cb6ce" meeting="false" start="2013-12-10" duration="4" complete="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Ian Malm" function="Default:0" contacts="" phone=""/>
@@ -91,18 +94,23 @@ de um sistema via web que viabilize o compartilhamento de caronas entre os diver
     </resources>
     <allocations>
         <allocation task-id="7" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="12" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="0" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="10" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="14" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="17" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="5" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="14" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="17" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="2" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="10" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="12" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="0" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="14" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="17" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
